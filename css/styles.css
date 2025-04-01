@@ -4,31 +4,14 @@
   color: white;
   font-weight: bolder;
   background-color: black;
-  font-family: 'Courier New', sans-serif;
-}
+  font-family: Garamond, sans-serif;}
 
-h1, a {
-  font-size: 50px;
-  background-color: red;
-  color: black
-}
+.home, .link, .list {
+  font-size: 35px; text-align:left;}
 
-h2 {
-  font-size: 30px;
-}
+#desc, #bck{text-align:center;}
 
-p, li {
-  font-size: 20px;
-}
 
-li {
-  text-align: left;
-}
-
-.ingredients, .dressing, .steps {
-  text-align: left;
-  font-size: 30px;
-  font-family:  
-  
-}
-/* Recipes */
+h1 {font-size:50px; background-color:#f54242; color: black;}
+h2, h3 {font-size: 35px; text-align:left;}
+li {text-align: left; font-size: 20px;}
