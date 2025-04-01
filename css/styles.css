@@ -9,7 +9,9 @@
 .home, .link, .list {
   font-size: 35px; text-align:left;}
 
-#desc, #bck{text-align:center;}
+#desc, #bck, #opps{text-align:center;}
+#opps, #bck {font-size:40;}
+#opps {background-color: #f54242; color: black;}
 
 
 h1 {font-size:50px; background-color:#f54242; color: black;}
