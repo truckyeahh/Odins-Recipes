@@ -1,40 +1,66 @@
 /* All */
-* {
+ body {
   
-  color: white;
-  background-color: black;
+  color:  #2f3a63;
+  background-color: #4d6198;
   font-family: Garamond, sans-serif;
-  box-sizing: border-box;
 }
+
 .title {
-  color: black;
-  background-color: red;
+  color: #2f3a63 ;
+  background-color: #e3d5b6;
   font-size: 65px;
   font-weight: bolder;
   height: 80px;
-  width: 500px;
+  width: 520px;
   margin: 10px auto;
   text-align: center;
+  border: 5px double #4d6198;
 }
-#bck {
+
+#bck, #opps{
   text-align: center;
   font-size: 40px;
+  color: #e3d5b6;
+  background-color: #4d6198;
+  font-weight: bold;
+  display: block;
+  border: 5px double #e3d5b6;
+  width: 450px;
+  margin: 0px auto;
+  padding: 0px 10px;
 }
+
 ul {
   list-style-type: none;
   padding: 0px;
   text-align: center;
 }
 
-/* home page */
-.home-list{
-  font-size: 40px;
-  height: 80px;
-  width: 500px;
+footer {
+  text-align: center;
+  color: #553119;
+  height: 50px;
+  width: 150px;
   margin: 20px auto;
-  border: 2px dotted red;
+}
+
+
+/* home page */
+.home-list {
+  font-size: 40px;
+  height: 65px;
+  width: 450px;
+  margin: 20px auto;
+  border: 5px double #4d6198;
   display: block;
   padding-top: 15px;
+  background-color: #e3d5b6;
+  
+}
+a {
+  background-color: #e3d5b6;
+  color: #2f3a63;
 }
 .title-img {
   margin: 20px auto;
@@ -43,15 +69,20 @@ ul {
 
 /* recipes */
 .section{
-  height: 600px;
-  background-color: black;
+  height: 620px;
+  width: 530px;
+  background-color: #4d6198;
+  border: none;
+  
 }
 .describe, .steps {
   height: auto;
   width: 450px;
-  margin: auto;
+  margin: 0px auto;
   text-align: center;
   padding: 0px 10px;
+  background-color: #e3d5b6;
+  border: 5px double #4d6198;
 }
 .steps{
   text-align: left;
@@ -64,4 +95,8 @@ h2 {
 }
 .special {
   height: 150px;
+}
+ 
+.space {
+  padding: 5px;
 }
