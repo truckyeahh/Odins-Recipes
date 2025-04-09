@@ -1,19 +1,67 @@
-/* Home Page */
+/* All */
 * {
-  text-align: center;
+  
   color: white;
-  font-weight: bolder;
   background-color: black;
-  font-family: Garamond, sans-serif;}
+  font-family: Garamond, sans-serif;
+  box-sizing: border-box;
+}
+.title {
+  color: black;
+  background-color: red;
+  font-size: 65px;
+  font-weight: bolder;
+  height: 80px;
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+}
+#bck {
+  text-align: center;
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+}
 
-.home, .link, .list {
-  font-size: 35px; text-align:left;}
+/* home page */
+.home-list{
+  font-size: 40px;
+  height: 80px;
+  width: 500px;
+  margin: 20px auto;
+  border: 2px dotted red;
+  display: block;
+  padding-top: 15px;
+}
+.title-img {
+  margin: 20px auto;
+  display: block;
+}
 
-#desc, #bck, #opps{text-align:center;}
-#opps, #bck {font-size:40;}
-#opps {background-color: #f54242; color: black;}
-
-
-h1 {font-size:50px; background-color:#f54242; color: black;}
-h2, h3 {font-size: 35px; text-align:left;}
-li {text-align: left; font-size: 20px;}
+/* recipes */
+.section{
+  height: 600px;
+  background-color: black;
+}
+.describe, .steps {
+  height: auto;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 10px;
+}
+.steps{
+  text-align: left;
+}
+h2 {
+  font-size: 30px;
+}
+.sspecial {
+  height: 670px;
+}
+.special {
+  height: 150px;
+}
